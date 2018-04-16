@@ -1,0 +1,169 @@
+@charset "UTF-8";
+body,div,span,h1,h2,h3,h4,h5,h6,p,a,font,img,li,ol,ul,form,label,legend,tr,th,td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+.head {
+	margin: auto;
+	width: 1000px;
+	height:700px;
+}
+.header {
+	padding: 1px;
+	
+	width: 1000px;
+	height:80px;
+	border-style: solid;
+	border-width: 1px;
+}
+.logo {
+	height: 78px;
+	width: 300px;
+	float:left;
+	border-width: 1px;
+	border-style: solid;
+	padding: 0px;
+	font-size: 50px;
+	font-family: Lobster;
+	line-height:78px;
+	text-align: center;
+}
+
+.search {
+	height: 78px;
+	width: 400px;
+	border-width: 1px;
+	border-style: solid;
+	float: right;
+}
+.search-txt {
+	float: left;
+	height: 75px;
+	width: 297px;
+}
+
+.search-btn {
+	float: right;
+	height: 75px;
+	width: 100px;
+	border-width: 0px;
+	border-style: none;
+	background-position: center center;
+}
+.searchButton {
+	height: 30px;
+	width: 100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	padding: 0px;
+}
+.content {
+	height: 600px;
+	width: 1000px;
+	border-width: 1px;
+	border-style: dotted;
+}
+.navContent {
+position: absolute;
+height: 30px;
+width: 980px;
+padding: 0px;
+margin: 10px;
+border-width: 0px;
+border-style: none;
+}
+.topnavi{
+overflow:hidden;
+background-color:#333;
+}
+.topnavi a {
+display:block;
+text-decoration:none;
+color:#80FFFF;
+float:center;/* all in one line*/
+padding:0px;
+}
+.topnavi a:hover{
+background-color:#80FFFF;
+color:black;
+}
+.navMenu {
+list-style-type: none;
+height: 28px;
+width: 1500px;
+display: block;
+}
+.navMenu li {
+display: block;
+margin: 0px;
+padding: 0px;
+float: left;
+width: 102.8px;
+border-width: 3px;
+border-style: double;
+height: 25px;
+font-size: 16px;
+line-height: 25px;
+font-weight: bold;
+text-align: center;
+}
+.leftNav {
+	position:absolute; 
+	top: 690px;
+	left:50%;
+	margin:-550px 0 0 -500px;
+	height: 550px;
+	width: 200px;
+	border-width: 1px;
+	border-style: solid;
+	
+	
+	
+}
+.rightNav{
+	position:absolute; 
+	top: 690px;
+	left:50%;
+	margin:-550px 0 0 -300px;
+	height: 550px;
+	width: 800px;
+	border-width: 1px;
+	border-style: solid;
+	
+	
+}
+.menu{
+	margin: auto;
+}
+.menu li {
+	display: block;
+	width: 180px;
+	border-width: 3px;
+	border-style: double;
+	height: 40px;
+	font-size: 20px;
+	line-height: 35px;
+	font-weight: bold;
+	text-align: center;
+}
+.footer {
+	margin: auto;
+	width: 1000px;
+	height:50px;
+	border-style: solid;
+	border-width: 1px;
+	line-height:50px;
+	text-align: center;
+}
+.Absolute-Center {
+	margin: auto;
+	border-width: 1px;
+	border-style: solid;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
