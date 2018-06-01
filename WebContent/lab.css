@@ -1,13 +1,18 @@
 @charset "UTF-8";
-body,div,span,h1,h2,h3,h4,h5,h6,p,a,font,img,li,ol,ul,form,label,legend,tr,th,td {
-	margin: 0;
-	padding: 0;
-	border: 0;
+body{
+	 background:url(images/grass.jpg);
+	 background-position:50% 50%; /*             图片上下左右居中  */
+     background-size:contain;       /*           保持图像本身的宽高比例，将图片缩放到宽度或高度正好适应定义背景的区域  */
+     background-repeat:no-repeat;     /*         图像不重复显示  */
 }
 .head {
 	margin: auto;
 	width: 1000px;
 	height:700px;
+}
+
+.head input{
+	color:#80FFFF;
 }
 .header {
 	padding: 1px;
@@ -38,6 +43,7 @@ body,div,span,h1,h2,h3,h4,h5,h6,p,a,font,img,li,ol,ul,form,label,legend,tr,th,td
 	float: right;
 }
 .search-txt {
+	color:#80FFFF;
 	float: left;
 	height: 75px;
 	width: 297px;
@@ -134,6 +140,7 @@ text-align: center;
 	
 	
 }
+
 .menu{
 	margin: auto;
 }

@@ -30,7 +30,7 @@
 			<div class="topnavi">
 			<ul class="navMenu">
 			<li><a href="#">国际新闻</a></li><li><a href="#">国内新闻</a></li><li><a href="#">省内新闻</a></li><li><a href="#">贵阳新闻</a></li><li><a href="#">校内新闻</a></li><li><a href="#">学院新闻</a></li>
-			<li><a href="#">系内新闻</a></li><li><a href="#">班上新闻</a></li><li><a href="#">没有新闻</a></li>
+			<li><a href="#">系内新闻</a></li><li><a href="#">班上新闻</a></li><li><a href="Logout">退出登录</a></li>
 			</ul>
 			</div>
 	</div>
